@@ -1,14 +1,23 @@
 <!DOCTYPE html>
+<!--
+   Hello! Thank you for looking at my code and for visiting my site :)
+   This is my first time building a site, so I hope you enjoyed it!
+   I began building it in Node.js but decided to recreate and complete it in Django (since I love Python so much xD)
+
+   If you would like to reach out, drop me an email or message :D
+   -->
 <html lang="en">
 <head>
   {% load static %}
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Kenny Stevens</title>
-  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="icon" href="{% static 'images/logo/logo12px.svg' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/lib/bootstrap.css' %}">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css"> -->
-  <link rel="stylesheet" type="text/css" href="{% static 'css/portfolio.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/landing/landing.css' %}">
 </head>
 <body>

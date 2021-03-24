@@ -1,0 +1,42 @@
+<span class="splash-logo" id="right">
+  <svg id="Layer_4 right" data-name="Layer 4 right" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px" viewBox="0 0 101 101">
+    <defs>
+      <style>.l-cls-1{fill:none;}.l-cls-2{clip-path:url(#clip-path);}.l-cls-3{clip-path:url(#clip-path-2);}</style>
+      <clipPath id="clip-path">
+        <rect class="l-cls-1" x="15.56" y="0.5" width="72.26" height="100"/>
+      </clipPath>
+      <clipPath id="clip-path-2">
+        <rect class="l-cls-1" x="15.56" y="0.5" width="72.26" height="100"/>
+      </clipPath>
+    </defs>
+    <g id="Artwork_4 right" data-name="Artwork 4 right">
+      <g class="l-cls-2">
+        <g class="l-cls-3">
+          <path class="l-cls-4" id="left" d="M23.58,5.79V49.9c0,5.34-8,5.34-8,0V5.79c0-5.35,8-5.35,8,0"/>
+          <path class="l-cls-4" id="right" d="M86.57,7.42,43.3,50.5,86.57,93.58c3.79,3.77-1.87,9.45-5.66,5.68L34.79,53.34a4.11,4.11,0,0,1,0-5.68L80.91,1.74C84.7-2,90.36,3.65,86.57,7.42"/>
+        </g>
+      </g>
+    </g>
+  </svg>
+</span>
+<span class="splash-logo" id="left">
+  <svg id="Layer_4 left" data-name="Layer 4 left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px" viewBox="0 0 101 101">
+    <defs>
+      <style>.l-cls-1{fill:none;}.l-cls-2{clip-path:url(#clip-path);}.l-cls-3{clip-path:url(#clip-path-2);}</style>
+      <clipPath id="clip-path">
+        <rect class="l-cls-1" x="15.56" y="0.5" width="72.26" height="100"/>
+      </clipPath>
+      <clipPath id="clip-path-2">
+        <rect class="l-cls-1" x="15.56" y="0.5" width="72.26" height="100"/>
+      </clipPath>
+    </defs>
+    <g id="Artwork_4 left" data-name="Artwork 4 left">
+      <g class="l-cls-2">
+        <g class="l-cls-3">
+          <path class="l-cls-4" id="left" d="M23.58,5.79V49.9c0,5.34-8,5.34-8,0V5.79c0-5.35,8-5.35,8,0"/>
+          <path class="l-cls-4" id="right" d="M86.57,7.42,43.3,50.5,86.57,93.58c3.79,3.77-1.87,9.45-5.66,5.68L34.79,53.34a4.11,4.11,0,0,1,0-5.68L80.91,1.74C84.7-2,90.36,3.65,86.57,7.42"/>
+        </g>
+      </g>
+    </g>
+  </svg>
+</span>

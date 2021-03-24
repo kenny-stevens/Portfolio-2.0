@@ -1,4 +1,29 @@
-<div id="contact-page" class="row d-flex page">
-	<h1>Reach Out to Me</h1>
+<div id="contact-page" class="d-flex container-fluid page">
+	<h1 class="display-4 title"><span class="number"></span>Reach Out to Me</h1>
 	<p>Feel free to reach out to me if you liked my portfolio :)</p>
+
+	<!-- form -->
+	<form class="row g-3">
+		<div class="col-md-6">
+	    <label for="Name" class="form-label"></label>
+	    <input type="text" class="form-control" id="Name" placeholder="Name">
+	  </div>
+		<div class="col-md-6">
+	    <label for="Email" class="form-label"></label>
+	    <input type="email" class="form-control" id="Email" placeholder="Email">
+	  </div>
+	  <div class="col-md-12">
+	    <label for="Subject" class="form-label"></label>
+	    <input type="text" class="form-control" id="Subject" placeholder="Subject">
+	  </div>
+		<div class="col-md-12">
+		  <label for="Message" class="form-label"></label>
+		  <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
+		</div>
+		<div class="col-md-12" id="email-send-button">
+				<button type="submit" class="btn btn-outline-primary">Send</button>
+		</div>
+	</form>
+
+
 </div>

@@ -1,18 +1,24 @@
 {% include "landing/partials/header.html" %}
-
+{% include "landing/splash.html" %}
 <div>
 	<ul class="sidebar-nav top left">
+		<li class="nav-item menu logo">
+			<a href="#" id="nav-logo">{% include "logo/logo44px.svg" %}</a>
+		</li>
 		<li class="nav-item menu" id="home">
-			<a href="#home-page"><span class="dot"></span>Home</a>
+			<a href="#home-page"><i class="bi bi-house"></i></a>
 		</li>
 		<li class="nav-item menu" id="aboutme">
-			<a href="#aboutme-page"><span class="dot"></span>About Me</a>
+			<a href="#aboutme-page"><i class="bi bi-person"></i></a>
+		</li>
+		<li class="nav-item menu" id="skills">
+			<a href="#skills-page"><i class="bi bi-layers-half"></i></a>
 		</li>
 		<li class="nav-item menu" id="projects">
-			<a href="#projects-page"><span class="dot"></span>Projects</a>
+			<a href="#projects-page"><i class="bi bi-journals"></i></a>
 		</li>
 		<li class="nav-item menu" id="contact">
-			<a href="#contact-page"><span class="dot"></span>Contact Me</a>
+			<a href="#contact-page"><i class="bi bi-envelope"></i></a>
 		</li>
 	</ul>
 </div>
@@ -20,33 +26,10 @@
 <div class="container">
 	{% include "landing/home.html" %}
 	{% include "landing/aboutme.html" %}
+	{% include "landing/skills.html" %}
 	{% include "landing/projects.html" %}
 	{% include "landing/contact.html" %}
 </div>
-
-<!-- Arrow buttons -->
-<!--
-<div class="arrows up invisible"><span id="up-arrow"><i class="arrow alternate circle up outline icon"></i></span></div>
-<div class="arrows down"><span id="down-arrow"><i class="arrow alternate circle down outline icon"></i></span></div> -->
-
-
-
-<!-- <nav class="navbar bottom navbar-expand-lg navbar-light bg-light">
-	<ul class="navbar-nav mr-auto">
-		<li class="nav-item">
-			<a href="https://github.com/kenny-stevens">Github</a>
-		</li>
-		<li class="nav-item">
-			<a href="https://www.linkedin.com/in/kennystevens1111/">LinkedIn</a>
-		</li>
-		<li class="nav-item">
-			<a href="#">CV</a>
-		</li>
-		<li class="nav-item">
-			<a href="/#">Kenny Stevens</a>
-		</li>
-	</ul>
-</nav> -->
 
 <!-- Bottom NavBar -->
 <div>
@@ -55,10 +38,10 @@
 				<a href="https://github.com/kenny-stevens"><i class="bi bi-github"></i></a>
 			</li>
 			<li class="nav-item">
-				<a href="https://www.linkedin.com/in/kennystevens1111/"><i class="bi bi-linkedin"></i></a>
+				<a href="https://www.linkedin.com/in/kennystevens1111/"><i class="fab fa-linkedin-in"></i></a>
 			</li>
 			<li class="nav-item">
-				<a href="/#contact">CV</a>
+				<a href="/#"><i class="bi bi-person-square"></i></a>
 			</li>
 			<li>
 				<div class="nav-item bottom-nav-bar"></div>

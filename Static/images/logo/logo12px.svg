@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 12.1 12.1">
+  <defs>
+    <style>.xs-cls-1{fill:none;}.xs-cls-2{clip-path:url(#clip-path);}.xs-cls-3{fill:rgba(0, 104, 139, 1);}</style>
+    <clipPath id="clip-path">
+      <rect class="xs-cls-1" x="1.83" y="0.05" width="8.67" height="12"/>
+    </clipPath>
+  </defs>
+  <g id="Artwork_1" data-name="Artwork 1">
+    <g class="xs-cls-2">
+      <g class="xs-cls-2">
+        <path class="xs-cls-3" d="M2.79.68V6a.48.48,0,0,1-1,0V.68a.48.48,0,1,1,1,0"/>
+        <path class="xs-cls-3" d="M10.35.88,5.16,6.05l5.19,5.17a.48.48,0,0,1-.68.68L4.14,6.39a.48.48,0,0,1,0-.68L9.67.2a.48.48,0,0,1,.68.68"/>
+      </g>
+    </g>
+  </g>
+</svg>
